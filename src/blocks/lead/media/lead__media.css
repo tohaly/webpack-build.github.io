@@ -1,0 +1,37 @@
+@media screen and (min-width: 1023px){
+  .lead{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .lead__container{
+    padding: 50px 100px 40px;
+  }
+  .lead__title{
+    font-size: 2.7rem;
+    margin-bottom: 17px;
+    margin-bottom: 20px;
+  }
+  .lead__img{
+    background-image: url('../../../images/lead__title__646x121.jpg');
+    padding-top: 9%;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .lead__text{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    max-width: 650px;
+  }
+  .lead__date{
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  .lead__start{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .lead__days-left{
+    font-size: 2.7rem;
+    margin-bottom: 35px;
+  }
+}

@@ -1,5 +1,5 @@
 // styles
-import "./styles/style.css";
+import "./page/index.css";
 
 // scripts
 import "./scripts/script.js";

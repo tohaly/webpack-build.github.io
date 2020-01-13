@@ -1,0 +1,7 @@
+.projects__container{
+  padding: 24px 26px 33px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

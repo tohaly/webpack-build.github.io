@@ -1,0 +1,14 @@
+.button{
+  padding: 15px 30px;
+  background-color: #FA8E5A;
+  border-radius: 50px;
+  border: none;
+  margin: 0 auto;
+  color: #001185;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  cursor: pointer;
+}

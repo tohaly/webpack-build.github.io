@@ -1,0 +1,16 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/description/description.css');
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_position_projects/button_position_projects.css');
+@import url('../blocks/sponsors/sponsors.css');
+@import url('../blocks/footer/footer.css');
+
+@import url('../media/media.css');
+
+html{
+  font-size: 18px;
+}

@@ -1,0 +1,8 @@
+@import url('./humburger-line/humburger-line.css');
+
+.header__humburger{
+  width: 40px;
+  margin: 0 40px 0 0;
+  align-self: center;
+  cursor: pointer;
+}

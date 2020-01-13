@@ -1,0 +1,35 @@
+@media screen and (min-width: 1023px){
+  .projects{
+    padding: 0 40px;
+  }
+  .projects__container{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .projects-card__caption-block{
+    max-width: 260px;
+    padding: 24px 30px 33px 20px;
+  }
+  .projects-card{
+    margin: 0 5% 0 0;
+  }
+  .projects-card:last-of-type{
+    margin: 0;
+  }
+  .projects__title{
+    font-size: 2rem;    
+    padding: 47px 0;
+  }
+  .projects-card__title{
+    font-size: 1.3rem;
+    margin-bottom: 17px;
+  }
+  .button__line{
+    width: 45px;
+    border-top: 2px solid #FBAC86;
+    align-self: center;
+  }
+  .button__text{
+    font-size: 0.8rem;
+  }
+}

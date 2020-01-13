@@ -1,0 +1,15 @@
+@media screen and (min-width: 1023px){
+  .footer__container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+  .footer__mail{
+    margin-bottom: 0;
+  }
+  .footer__comunity{
+    margin-bottom: 0;
+    order: 3;
+  }
+}

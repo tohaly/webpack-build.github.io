@@ -1,0 +1,15 @@
+@import url('./__caption-block/projects-card__caption-block.css');
+@import url('./__img/projects-card__img.css');
+@import url('./__title/projects-card__title.css');
+@import url('./__button/projects-card__button.css');
+
+.projects-card{
+  max-width: 355px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.projects-card:last-of-type{
+  margin-bottom: 0;
+}

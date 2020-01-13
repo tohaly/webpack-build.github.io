@@ -1,0 +1,17 @@
+.sponsors__item{
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.sponsors__item:nth-child(1){
+  grid-area: first;
+  justify-self: center;
+}
+
+.sponsors__item:nth-child(2){  
+  grid-area: two;
+}
+
+.sponsors__item:nth-child(3){  
+  grid-area: thre;
+}

@@ -1,0 +1,7 @@
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 20px 38px;
+  background-color: #F9E7D9;
+  align-items: center;
+}

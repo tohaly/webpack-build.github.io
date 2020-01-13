@@ -1,0 +1,6 @@
+.lead__container{
+  background-color: #F9E7D9;
+  padding: 38px 35px 48px;
+  display: flex;
+  flex-direction: column;
+}
