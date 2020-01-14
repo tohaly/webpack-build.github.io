@@ -6,4 +6,10 @@
   font-weight: normal;
   color: #000;
   position: relative;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.button__text:hover{
+  color: #FA8E5A;
 }

@@ -1,8 +1,4 @@
 @media screen and (min-width: 1023px){
-  .lead{
-    padding-right: 40px;
-    padding-left: 40px;
-  }
   .lead__container{
     padding: 50px 100px 40px;
   }

@@ -66,6 +66,13 @@ module.exports = {
       template: "./src/index.html",
       filename: "index.html"
     }),
+    new HtmlWebpackPlugin({
+      // настроили плагин
+      inject: false,
+      hash: true,
+      template: "./src/projects.html",
+      filename: "projects.html"
+    }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
       cssProcessor: require("cssnano"),

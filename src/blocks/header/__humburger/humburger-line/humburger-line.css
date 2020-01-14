@@ -3,8 +3,13 @@
   height: 2px;
   background-color: #2F2761;
   margin-bottom: 3px;
+  transition: background-color 0.4s;
 }
 
 .humburger-line:last-of-type{
   margin-bottom: 0;
+}
+
+.header__humburger:hover .humburger-line{
+  background-color: #FA8E5A;
 }

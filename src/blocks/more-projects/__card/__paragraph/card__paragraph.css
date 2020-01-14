@@ -1,0 +1,12 @@
+.card__paragraph{
+  font-size: 1rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.card__paragraph:last-of-type{
+  display: none;
+}

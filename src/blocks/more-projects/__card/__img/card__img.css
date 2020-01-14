@@ -1,0 +1,16 @@
+.card__img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.card__img:nth-child(1){
+  display: none;
+}
+
+.card__img:nth-child(2){
+  display: none;
+}
+
+.card__img:nth-child(3){
+  display: none;
+}
