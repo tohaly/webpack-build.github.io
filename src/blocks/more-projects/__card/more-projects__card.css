@@ -1,0 +1,12 @@
+@import url('./__grid-imgs/card__grid-imgs.css');
+@import url('./__img/card__img.css');
+@import url('./__paragraph/card__paragraph.css');
+@import url('./__text/card__text.css');
+@import url('./__title/card__title.css');
+@import url('./__wrapper/card__wrapper.css');
+
+.more-projects__card{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
