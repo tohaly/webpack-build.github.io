@@ -2,6 +2,7 @@
   .projects__container{
     flex-direction: row;
     justify-content: center;
+    padding: 85px 65px 20px;
   }
   .projects-card__caption-block{
     max-width: 90%;
@@ -20,6 +21,9 @@
   .projects-card__title{
     font-size: 1.3rem;
     margin-bottom: 17px;
+  }
+  .projects__button-place{
+    padding: 51px 0;
   }
   .button__line{
     width: 45px;

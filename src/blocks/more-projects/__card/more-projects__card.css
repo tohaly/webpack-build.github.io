@@ -8,5 +8,4 @@
 .more-projects__card{
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px;
 }

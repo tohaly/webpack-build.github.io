@@ -4,4 +4,15 @@
   align-self: self-end;
   box-sizing: border-box;
   margin: 0;
+  max-width: 60%;
+  width: 100%;
+  padding: 13.5px 0;
+}
+
+@media screen and (min-width: 1023px){
+  .button_bg-white{
+    margin-top: 50px;
+    min-width: 135px;
+    max-width: 28%;
+  }
 }

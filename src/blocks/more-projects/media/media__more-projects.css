@@ -1,6 +1,7 @@
 @media screen and (min-width: 850px){
   .more-projects__title{
     font-size: 2.7rem;
+    padding: 24px 0 17px;
   }
   .card__wrapper{
     display: flex;
@@ -8,11 +9,11 @@
     max-width: 450px;
     margin: 0;
     max-width: none;
+    padding: 50px 65px;
   }
   .card__title{
-    font-size: 2.1rem;
+    font-size: 2rem;
     padding: 23px 49px;
-    margin-bottom: 48px;
   }
   .card__grid-imgs{
     align-self: flex-start;
@@ -24,7 +25,7 @@
         "first four"
         "second four"
         "three four";
-    padding: 0 0 0 65px;
+    padding-right: 9%;
     grid-column-gap: 50px;
     grid-row-gap: 35px;
   }
@@ -52,5 +53,6 @@
 @media screen and (min-width: 1024px){
 .card__paragraph:last-of-type{
   display: block;
+  margin-bottom: 0;
 }
 }

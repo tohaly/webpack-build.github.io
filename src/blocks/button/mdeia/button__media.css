@@ -1,6 +1,14 @@
 @media screen and (min-width: 1023px){
   .button{
-    padding: 20px 43px;
-    font-size: 1rem;
+    max-width: 29.31%;
+    min-width: 300px;
+    padding: 25.5px 0;
+    font-size: 1.3rem;
+  }
+
+  .button_position_projects{
+    max-width: 31%;
+    font-size: 1.7rem;
+    min-width: 400px;
   }
 }

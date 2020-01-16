@@ -1,9 +1,10 @@
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 1130px){
   .sponsors__list{
     grid-template-areas: 
       "first two thre";
   }
   .sponsors__container{
+    padding: 75px 0 82px;
     display: grid;
     grid-template-areas: 
       "org org"
@@ -26,5 +27,13 @@
   }
   .sponsors__title_org{
     text-align: center;
+  }
+  
+  .sponsors__item:nth-child(2){
+    max-width: 150px;  
+  }
+  
+  .sponsors__item:nth-child(3){  
+    max-width: 150px;  
   }
 }
