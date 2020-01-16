@@ -2,14 +2,15 @@
   .footer__container{
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 65px;
-    padding-left: 65px;
+    padding: 54px 65px 57px;
   }
   .footer__mail{
     margin-bottom: 0;
+    font-size: 1rem;
   }
   .footer__comunity{
     margin-bottom: 0;
     order: 3;
+    font-size: 1rem;
   }
 }

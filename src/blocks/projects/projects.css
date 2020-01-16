@@ -1,6 +1,6 @@
 @import url('./__title/projects__title.css');
 @import url('./projects-card/projects-card.css');
-@import url('./projects__container/projects__container.css');
+@import url('./__container/projects__container.css');
 @import url('./__button-place/projects__button-place.css');
 
 .projects{

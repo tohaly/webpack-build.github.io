@@ -8,10 +8,12 @@
   justify-self: center;
 }
 
-.sponsors__item:nth-child(2){  
+.sponsors__item:nth-child(2){
+  max-width: 115px;  
   grid-area: two;
 }
 
 .sponsors__item:nth-child(3){  
   grid-area: thre;
+  max-width: 115px;  
 }

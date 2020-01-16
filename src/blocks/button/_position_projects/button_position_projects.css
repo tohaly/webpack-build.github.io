@@ -1,4 +1,5 @@
 .button_position_projects{
   margin: 0 auto;
   display: block;
+  max-width: 234px;
 }

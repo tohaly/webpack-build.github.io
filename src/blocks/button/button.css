@@ -1,5 +1,7 @@
 .button{
-  padding: 15px 30px;
+  max-width: 245px;
+  width: 100%;
+  padding: 14.5px 0;
   background-color: #FA8E5A;
   border-radius: 50px;
   border: none;

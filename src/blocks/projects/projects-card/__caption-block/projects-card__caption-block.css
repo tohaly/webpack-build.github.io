@@ -1,8 +1,8 @@
 .projects-card__caption-block{  
   box-sizing: border-box;
   max-width: 81%;
-  margin-top: -40px;
-  padding: 16px 60px 29px 15px;
+  transform: translateY(-50%);
+  padding: 16px 15px 29px 15px;
   position: relative;
   z-index: 1;
   background-color: #fff;

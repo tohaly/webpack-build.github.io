@@ -7,9 +7,4 @@
   max-width: 355px;
   width: 100%;
   position: relative;
-  margin-bottom: 50px;
-}
-
-.projects-card:last-of-type{
-  margin-bottom: 0;
 }
