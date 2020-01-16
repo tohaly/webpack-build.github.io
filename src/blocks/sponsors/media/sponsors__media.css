@@ -1,17 +1,17 @@
-@media screen and (min-width: 1130px){
+@media screen and (min-width: 1230px){
   .sponsors__list{
     grid-template-areas: 
       "first two thre";
   }
   .sponsors__container{
-    padding: 75px 0 82px;
+    padding: 75px 26px 82px;
     display: grid;
     grid-template-areas: 
       "org org"
       "supp partn";
     justify-content: center;
-    grid-template-columns: repeat(2, 380px);
-    grid-gap: 150px;
+    grid-template-columns: repeat(2, 480px);
+    grid-gap: 140px;
   }
   .sponsors__block:nth-child(1){
     grid-area: org;
