@@ -1,7 +1,7 @@
-.header__container{
+.header__container {
   width: 100%;
-  background-color: #F9E7D9;
-  padding: 9px 40px 8px 25px;;
+  background-color: #f9e7d9;
+  padding: 9px 40px 8px 25px;
   box-sizing: border-box;
   display: flex;
   grid-area: 1;

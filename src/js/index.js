@@ -1,14 +1,14 @@
-// styles
-import "../page/index.css";
-import "../page/project.css";
-import { ScrolToSection } from "./scroll-to-section";
-import "./btnAndSectn";
+/* eslint-disable no-undef */
+import '../page/index.css';
+import '../page/project.css';
+import { ScrolToSection } from './scroll-to-section';
+import { btnAndSectn } from './btnandsectn';
 
-const goTostocks = new ScrolToSection(window.btnAndSectn.lead);
-const goToPoster = new ScrolToSection(window.btnAndSectn.poster);
-const goToprojects = new ScrolToSection(window.btnAndSectn.projects);
-const goToOrganizers = new ScrolToSection(window.btnAndSectn.organizers);
-const goToPartners = new ScrolToSection(window.btnAndSectn.partners);
+const goTostocks = new ScrolToSection(btnAndSectn.lead);
+const goToPoster = new ScrolToSection(btnAndSectn.poster);
+const goToprojects = new ScrolToSection(btnAndSectn.projects);
+const goToOrganizers = new ScrolToSection(btnAndSectn.organizers);
+const goToPartners = new ScrolToSection(btnAndSectn.partners);
 
 goTostocks.listeners();
 goToPoster.listeners();

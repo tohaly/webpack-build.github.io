@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
-  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="header__container">
-        <a href="./index.html" class="main-link">
-          <div class="logo"></div>
-        </a>
-        <div class="header__humburger">
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Музей для всех</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
+    <link
+      rel="shortcut icon"
+      href="<%=require('./images/favicon.ico')%>"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <a href="./index.html" class="main-link">
+            <div class="logo"></div>
+          </a>
+          <div class="header__humburger">
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
+          </div>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu-item__link menu-item__link_stocks">Акция</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu-item__link menu-item__link_poster">Афиша</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu-item__link menu-item__link_partners">Партнеры</a>
+            </li>
+          </ul>
         </div>
-        <ul class="menu">
-          <li class="menu__item">
-            <a href="#" class="menu-item__link menu-item__link_stocks">Акция</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link menu-item__link_poster">Афиша</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link menu-item__link_partners">Партнеры</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <ul class="menu menu_drop-down">
-      <li class="menu__item menu__item_drop-down">
-        <a href="#" class="menu-item__link menu-item__link_stocks">Акция</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="#" class="menu-item__link menu-item__link_poster">Афиша</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="#" class="menu-item__link menu-item__link_partners">Партнеры</a>
-      </li>
-    </ul>
-    <section class="lead" id="stocks">
-      <div class="lead__container">
-        <h1 class="lead__title">
-          всероссийская инклюзивная акция
-        </h1>
-        <div class="lead__img"></div>
-        <p class="lead__text">Выставки, экскурсии, концерты, театральные квесты и мастер-классы для детей и взрослых, с инвалидностью и без</p>
+      </header>
+      <ul class="menu menu_drop-down">
+        <li class="menu__item menu__item_drop-down">
+          <a href="#" class="menu-item__link menu-item__link_stocks">Акция</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="#" class="menu-item__link menu-item__link_poster">Афиша</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="#" class="menu-item__link menu-item__link_partners">Партнеры</a>
+        </li>
+      </ul>
+      <section class="lead" id="stocks">
+        <div class="lead__container">
+          <h1 class="lead__title">
+            всероссийская инклюзивная акция
+          </h1>
+          <div class="lead__img"></div>
+          <p class="lead__text">
+            Выставки, экскурсии, концерты, театральные квесты и мастер-классы для детей и взрослых,
+            с инвалидностью и без
+          </p>
           <p class="lead__date">
             18-20 апреля 2020
           </p>
@@ -73,133 +81,191 @@
             117 дней
           </p>
           <button class="button">Афиша мероприятий</button>
-      </div>
-    </section>
-    <section class="description" id="poster">
-      <div class="description__container">
-        <p class="description__text">
-          Акция «Музей для всех”  пройдет в России  в третий раз. В 2017 году акция объединила более 250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев и 16700 человек со всей страны. Мы надеемся, что количество наших единомышленников будет расти! 
-        </p>
-        <p class="description__text">
-          В рамках акции музеи приглашают посетителей на выставки, экскурсии, концерты, театральные квесты и мастер-классы, адаптированные или созданные с участием людей с инвалидностью.
-        </p>
-        <p class="description__text">
-          Задача акции — привлечь внимание широкой общественности к значимости равноправного участия всех людей в культурной жизни. В этот день музеи приглашают всех тех, кто поддерживает развитие инклюзии в нашей стране.
-        </p>
-      </div>
-    </section>
-    <section class="projects" id="projects">
-      <h2 class="projects__title">
+        </div>
+      </section>
+      <section class="description" id="poster">
+        <div class="description__container">
+          <p class="description__text">
+            Акция «Музей для всех” пройдет в России в третий раз. В 2017 году акция объединила более
+            250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев
+            и 16700 человек со всей страны. Мы надеемся, что количество наших единомышленников будет
+            расти!
+          </p>
+          <p class="description__text">
+            В рамках акции музеи приглашают посетителей на выставки, экскурсии, концерты,
+            театральные квесты и мастер-классы, адаптированные или созданные с участием людей с
+            инвалидностью.
+          </p>
+          <p class="description__text">
+            Задача акции — привлечь внимание широкой общественности к значимости равноправного
+            участия всех людей в культурной жизни. В этот день музеи приглашают всех тех, кто
+            поддерживает развитие инклюзии в нашей стране.
+          </p>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects__title">
           Проекты
-      </h2>
-      <div class="projects__container">      
-        <div class="projects-card">
-          <img class="projects-card__img" src="<%=require('./images/projects/img_1.jpg')%>" alt="" >
-          <div class="projects-card__caption-block">
-            <h3 class="projects-card__title">
-              “Неудобные вопросы об&nbsp;инвалидности”
-            </h3>
-            <div class="projects-card__button">
-              <div class="button__line"></div>
-              <a class="button__text" href="./projects.html">
-                Узнать больше
+        </h2>
+        <div class="projects__container">
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/img_1.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                “Неудобные вопросы об&nbsp;инвалидности”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a class="button__text" href="./projects.html">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/img_2.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                “Неудобные вопросы об&nbsp;инвалидности”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a class="button__text" href="./projects.html">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/img_3.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                “Неудобные вопросы об&nbsp;инвалидности”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a class="button__text" href="./projects.html">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects__button-place">
+          <button class="button button_position_projects">
+            Афиша мероприятий
+          </button>
+        </div>
+      </section>
+      <section class="sponsors" id="organizersr">
+        <div class="sponsors__container">
+          <div class="sponsors__block">
+            <h2 class="sponsors__title sponsors__title_org">
+              Организаторы
+            </h2>
+            <div class="sponsors__list">
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/logo__57x53.png')%>"
+                alt="Инклюзивный музей"
+              />
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/ICOM_NC_Russia.png')%>"
+                alt="ICOM NC Russia"
+              />
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/koleso_obozrenia.png')%>"
+                alt="Инклюзивный музей"
+              />
+            </div>
+          </div>
+          <div class="sponsors__block">
+            <h2 class="sponsors__title">
+              При поддержке
+            </h2>
+            <div class="sponsors__list">
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/vklad_v_budushie.png')%>"
+                alt="Инклюзивный музей"
+              />
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/blagotvorit_fond_potanina.png')%>"
+                alt="ICOM NC Russia"
+              />
+              <img
+                class="sponsors__item"
+                src="<%=require('./images/kulture_rf.png')%>"
+                alt="Инклюзивный музей"
+              />
+            </div>
+          </div>
+          <div class="sponsors__block">
+            <h2 class="sponsors__title sponsors__title_partners" id="partners">
+              Партнеры
+            </h2>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container">
+          <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
+          <ul class="footer__comunity">
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/youtube.svg')%>"
+                  alt="youtube"
+                  class="footer__chanel-img"
+                />
               </a>
-            </div>          
-          </div>
-        </div>
-        <div class="projects-card">
-          <img class="projects-card__img" src="<%=require('./images/projects/img_2.jpg')%>" alt="" >
-          <div class="projects-card__caption-block">
-            <h3 class="projects-card__title">
-              “Неудобные вопросы об&nbsp;инвалидности”
-            </h3>
-            <div class="projects-card__button">
-              <div class="button__line"></div>
-              <a class="button__text" href="./projects.html">
-                Узнать больше
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img src="<%=require('./images/VK.svg')%>" alt="VK" class="footer__chanel-img" />
               </a>
-            </div>          
-          </div>
-        </div>
-        <div class="projects-card">
-          <img class="projects-card__img" src="<%=require('./images/projects/img_3.jpg')%>" alt="" >
-          <div class="projects-card__caption-block">
-            <h3 class="projects-card__title">
-              “Неудобные вопросы об&nbsp;инвалидности”
-            </h3>
-            <div class="projects-card__button">
-              <div class="button__line"></div>
-              <a class="button__text" href="./projects.html">
-                Узнать больше
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/facebook.svg')%>"
+                  alt="facebook"
+                  class="footer__chanel-img"
+                />
               </a>
-            </div>          
-          </div>
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/instagram.svg')%>"
+                  alt="instagram"
+                  class="footer__chanel-img"
+                />
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">
+            <span class="footer__copyright_year">2020 </span
+            ><span class="footer__copyright_symb">&copy; </span>Инклюзивный музей
+          </p>
         </div>
-      </div>
-      <div class="projects__button-place">
-        <button class="button button_position_projects">Афиша мероприятий</button>
-      </div>
-    </section>
-    <section class="sponsors" id="organizersr">
-      <div class="sponsors__container">
-        <div class="sponsors__block">
-          <h2 class="sponsors__title sponsors__title_org">
-            Организаторы
-          </h2>
-          <div class="sponsors__list">
-            <img class="sponsors__item" src="<%=require('./images/logo__57x53.png')%>" alt="Инклюзивный музей">
-            <img class="sponsors__item" src="<%=require('./images/ICOM_NC_Russia.png')%>" alt="ICOM NC Russia">
-            <img class="sponsors__item" src="<%=require('./images/koleso_obozrenia.png')%>" alt="Инклюзивный музей">
-          </div>
-        </div>
-        <div class="sponsors__block">
-          <h2 class="sponsors__title">
-            При поддержке
-          </h2>
-          <div class="sponsors__list">
-            <img class="sponsors__item" src="<%=require('./images/vklad_v_budushie.png')%>" alt="Инклюзивный музей">
-            <img class="sponsors__item" src="<%=require('./images/blagotvorit_fond_potanina.png')%>" alt="ICOM NC Russia">
-            <img class="sponsors__item" src="<%=require('./images/kulture_rf.png')%>" alt="Инклюзивный музей">
-          </div>
-        </div>
-        <div class="sponsors__block">
-          <h2 class="sponsors__title sponsors__title_partners" id="partners">
-            Партнеры
-          </h2>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__container">
-        <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
-        <ul class="footer__comunity">
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/youtube.svg')%>" alt="youtube" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/VK.svg')%>" alt="VK" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/facebook.svg')%>" alt="facebook" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/instagram.svg')%>" alt="instagram" class="footer__chanel-img">
-            </a>
-          </li>
-        </ul>
-        <p class="footer__copyright">
-          <span class="footer__copyright_year">2019 </span><span class="footer__copyright_symb">&copy; </span>Инклюзивный музей
-        </p>
-      </div>   
-    </footer>
-  </div>
-  <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
-</body>
+      </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
 </html>
