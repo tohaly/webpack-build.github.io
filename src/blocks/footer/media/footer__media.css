@@ -13,4 +13,7 @@
     margin-bottom: 0;
     order: 3;
   }
+  .footer__copyright{    
+    font-size: 1rem;
+  }
 }
