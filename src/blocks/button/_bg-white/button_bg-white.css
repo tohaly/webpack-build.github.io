@@ -1,16 +1,22 @@
-.button_bg-white{
-  background-color: #fff;  
-  border: 1px solid #FA8E5A;
+.button_bg-white {
+  background-color: #fff;
+  border: 1px solid #fa8e5a;
   align-self: self-end;
   box-sizing: border-box;
   margin: 0;
   max-width: 60%;
   width: 100%;
   padding: 13.5px 0;
+  transition: background-color 0.4s;
 }
 
-@media screen and (min-width: 1023px){
-  .button_bg-white{
+.button_bg-white:hover {
+  background-color: #fa8e5a;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1023px) {
+  .button_bg-white {
     margin-top: 50px;
     min-width: 135px;
     max-width: 28%;

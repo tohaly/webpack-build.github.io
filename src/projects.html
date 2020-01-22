@@ -1,163 +1,233 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
-  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="header__container">
-        <a href="./index.html" class="main-link">
-          <div class="logo"></div>
-        </a>
-        <div class="header__humburger">
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
-          <div class="humburger-line"></div>
-        </div>
-        <ul class="menu">
-          <li class="menu__item">
-            <a href="#" class="menu-item__link">Акция</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link">Афиша</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link">Организаторы</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link">Спецпроекты</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu-item__link">Партнеры</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <ul class="menu menu_drop-down">
-      <li class="menu__item menu__item_drop-down">
-        <a href="./index.html#stocks" class="menu-item__link">Акция</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="./index.html#poster" class="menu-item__link">Афиша</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="/index.html#organizersr" class="menu-item__link">Организаторы</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="/index.html#projects" class="menu-item__link">Спецпроекты</a>
-      </li>
-      <li class="menu__item menu__item_drop-down">
-        <a href="/index.html#partners" class="menu-item__link">Партнеры</a>
-      </li>
-    </ul>
-    <section class="more-projects">
-      <div class="more-projects__container">
-        <h1 class="more-projects__title">Проекты</h1>
-        <div class="more-projects__card">
-          <div class="card__title">
-            “Неудобные вопросы об инвалидности”
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Музей для всех</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <a href="./index.html" class="main-link">
+            <div class="logo"></div>
+          </a>
+          <div class="header__humburger">
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
+            <div class="humburger-line"></div>
           </div>
-          <div class="card__wrapper">
-            <div class="card__grid-imgs">
-              <img src="<%=require('./images/projects/img_mini_1.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_2.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_3.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_1.jpg')%>" alt="" class="card__img">
-            </div>
-            <div class="card__text">
-              <p class="card__paragraph">
-                Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-              </p>
-              <p class="card__paragraph">
-                Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-              </p>
-              <button class="button button_bg-white">Перейти</button>
-            </div>
-          </div>          
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html#stocks" class="menu-item__link">Акция</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html#poster" class="menu-item__link">Афиша</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html#organizersr" class="menu-item__link">Организаторы</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html#projects" class="menu-item__link">Спецпроекты</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html#partners" class="menu-item__link">Партнеры</a>
+            </li>
+          </ul>
         </div>
-        <div class="more-projects__card">
-          <div class="card__title">
-            “Как я понял что у меня ивалидность”
+      </header>
+      <ul class="menu menu_drop-down">
+        <li class="menu__item menu__item_drop-down">
+          <a href="./index.html#stocks" class="menu-item__link">Акция</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="./index.html#poster" class="menu-item__link">Афиша</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="./index.html#organizersr" class="menu-item__link">Организаторы</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="./index.html#projects" class="menu-item__link">Спецпроекты</a>
+        </li>
+        <li class="menu__item menu__item_drop-down">
+          <a href="./index.html#partners" class="menu-item__link">Партнеры</a>
+        </li>
+      </ul>
+      <section class="more-projects">
+        <div class="more-projects__container">
+          <h1 class="more-projects__title">Проекты</h1>
+          <div class="more-projects__card">
+            <div class="card__title">
+              “Неудобные вопросы об инвалидности”
+            </div>
+            <div class="card__wrapper">
+              <div class="card__grid-imgs">
+                <img
+                  src="<%=require('./images/projects/img_mini_1.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_2.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_3.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img src="<%=require('./images/projects/img_1.jpg')%>" alt="" class="card__img" />
+              </div>
+              <div class="card__text">
+                <p class="card__paragraph">
+                  Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+                  сфера нашей активности позволяет выполнять важные задания по разработке модели
+                  развития. Значимость этих проблем настолько очевидна, что постоянный
+                  количественный рост и сфера нашей активности позволяет выполнять важные задания по
+                  разработке модели развития.
+                </p>
+                <p class="card__paragraph">
+                  Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет
+                  выполнять важные задания по разработке модели развития. Повседневная практика
+                  показывает, что консультация с широким активом способствует подготовки и
+                  реализации новых предложений.
+                </p>
+                <button class="button button_bg-white">Перейти</button>
+              </div>
+            </div>
           </div>
-          <div class="card__wrapper">
-            <div class="card__grid-imgs">
-              <img src="<%=require('./images/projects/img_mini_1.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_2.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_3.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_2.jpg')%>" alt="" class="card__img">
+          <div class="more-projects__card">
+            <div class="card__title">
+              “Как я понял что у меня ивалидность”
             </div>
-            <div class="card__text">
-              <p class="card__paragraph">
-                Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-              </p>
-              <p class="card__paragraph">
-                Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-              </p>
-              <button class="button button_bg-white">Перейти</button>
+            <div class="card__wrapper">
+              <div class="card__grid-imgs">
+                <img
+                  src="<%=require('./images/projects/img_mini_1.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_2.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_3.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img src="<%=require('./images/projects/img_2.jpg')%>" alt="" class="card__img" />
+              </div>
+              <div class="card__text">
+                <p class="card__paragraph">
+                  Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+                  сфера нашей активности позволяет выполнять важные задания по разработке модели
+                  развития. Значимость этих проблем настолько очевидна, что постоянный
+                  количественный рост и сфера нашей активности позволяет выполнять важные задания по
+                  разработке модели развития.
+                </p>
+                <p class="card__paragraph">
+                  Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет
+                  выполнять важные задания по разработке модели развития. Повседневная практика
+                  показывает, что консультация с широким активом способствует подготовки и
+                  реализации новых предложений.
+                </p>
+                <button class="button button_bg-white">Перейти</button>
+              </div>
             </div>
-          </div>          
-        </div>
-        <div class="more-projects__card">
-          <div class="card__title">
-            “Как помогает ваше домашнее животное в&nbspжизни”
           </div>
-          <div class="card__wrapper">
-            <div class="card__grid-imgs">
-              <img src="<%=require('./images/projects/img_mini_1.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_2.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_mini_3.jpg')%>" alt="" class="card__img">
-              <img src="<%=require('./images/projects/img_3.jpg')%>" alt="" class="card__img">
+          <div class="more-projects__card">
+            <div class="card__title">
+              “Как помогает ваше домашнее животное в&nbspжизни”
             </div>
-            <div class="card__text">
-              <p class="card__paragraph">
-                Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-              </p>
-              <p class="card__paragraph">
-                Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-              </p>
-              <button class="button button_bg-white">Перейти</button>
+            <div class="card__wrapper">
+              <div class="card__grid-imgs">
+                <img
+                  src="<%=require('./images/projects/img_mini_1.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_2.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img
+                  src="<%=require('./images/projects/img_mini_3.jpg')%>"
+                  alt=""
+                  class="card__img"
+                />
+                <img src="<%=require('./images/projects/img_3.jpg')%>" alt="" class="card__img" />
+              </div>
+              <div class="card__text">
+                <p class="card__paragraph">
+                  Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+                  сфера нашей активности позволяет выполнять важные задания по разработке модели
+                  развития. Значимость этих проблем настолько очевидна, что постоянный
+                  количественный рост и сфера нашей активности позволяет выполнять важные задания по
+                  разработке модели развития.
+                </p>
+                <p class="card__paragraph">
+                  Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет
+                  выполнять важные задания по разработке модели развития. Повседневная практика
+                  показывает, что консультация с широким активом способствует подготовки и
+                  реализации новых предложений.
+                </p>
+                <button class="button button_bg-white">Перейти</button>
+              </div>
             </div>
-          </div>          
+          </div>
         </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__container">
-        <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
-        <ul class="footer__comunity">
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/youtube.svg')%>" alt="youtube" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/VK.svg')%>" alt="VK" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/facebook.svg')%>" alt="facebook" class="footer__chanel-img">
-            </a>
-          </li>
-          <li class="footer__chanel">
-            <a href="#" class="footer__chanel-link">
-              <img src="<%=require('./images/instagram.svg')%>" alt="instagram" class="footer__chanel-img">
-            </a>
-          </li>
-        </ul>
-        <p class="footer__copyright">
-          <span class="footer__copyright_year">2019 </span><span class="footer__copyright_symb">&copy; </span>Инклюзивный музей
-        </p>
-      </div>   
-    </footer>
-  </div>
-  <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
-</body>
+      </section>
+      <footer class="footer">
+        <div class="footer__container">
+          <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
+          <ul class="footer__comunity">
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/youtube.svg')%>"
+                  alt="youtube"
+                  class="footer__chanel-img"
+                />
+              </a>
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img src="<%=require('./images/VK.svg')%>" alt="VK" class="footer__chanel-img" />
+              </a>
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/facebook.svg')%>"
+                  alt="facebook"
+                  class="footer__chanel-img"
+                />
+              </a>
+            </li>
+            <li class="footer__chanel">
+              <a href="#" class="footer__chanel-link">
+                <img
+                  src="<%=require('./images/instagram.svg')%>"
+                  alt="instagram"
+                  class="footer__chanel-img"
+                />
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">
+            <span class="footer__copyright_year">2020 </span
+            ><span class="footer__copyright_symb">&copy; </span>Инклюзивный музей
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
 </html>

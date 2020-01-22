@@ -1,31 +1,37 @@
+/* eslint-disable no-undef */
+// eslint-disable-next-line import/prefer-default-export
 export class ScrolToSection {
   constructor(data) {
     this.section = data.section;
     this.buttonClass = data.buttonClass;
   }
 
+  // eslint-disable-next-line class-methods-use-this
   scrolTo(section) {
     const timeOut = setInterval(() => {
-      window.scrollBy(0, 5);  
-      }, 3);
+      window.scrollBy(0, 10);
+    }, 3);
     document.addEventListener('scroll', () => {
-      if (pageYOffset >= section.offsetTop || pageYOffset === document.body.offsetHeight - document.documentElement.clientHeight) {
+      if (
+        pageYOffset >= section.offsetTop ||
+        Math.round(pageYOffset) ===
+          document.body.offsetHeight - document.documentElement.clientHeight
+      ) {
         clearInterval(timeOut);
       }
     });
   }
 
   render(event, btnClass) {
-    if(event.target.classList.contains(btnClass)){
+    if (event.target.classList.contains(btnClass)) {
       event.preventDefault();
       this.scrolTo(this.section);
-    }  
+    }
   }
 
   listeners() {
     document.addEventListener('click', event => {
-      
       this.render(event, this.buttonClass);
-    })
+    });
   }
 }
