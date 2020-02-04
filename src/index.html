@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Музей для всех</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
-    <link
-      rel="shortcut icon"
-      href="<%=require('./images/favicon.ico')%>"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
@@ -80,7 +76,15 @@
           <p class="lead__days-left">
             117 дней
           </p>
-          <button class="button">Афиша мероприятий</button>
+          <a
+            class="under-develope__hidden button button_position_lead"
+            href="https://www.culture.ru/"
+            target="_blank"
+            >Афиша мероприятий</a
+          >
+          <p class="under-develope__text">
+            Совсем скоро здесь появится афиша акции
+          </p>
         </div>
       </section>
       <section class="description" id="poster">
@@ -164,9 +168,16 @@
           </div>
         </div>
         <div class="projects__button-place">
-          <button class="button button_position_projects">
+          <p class="under-develope__text">
+            Совсем скоро здесь появится афиша акции
+          </p>
+          <a
+            class="under-develope__hidden button button_position_projects"
+            href="https://www.culture.ru/"
+            target="_blank"
+          >
             Афиша мероприятий
-          </button>
+          </a>
         </div>
       </section>
       <section class="sponsors" id="organizersr">

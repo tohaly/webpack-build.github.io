@@ -1,23 +1,24 @@
-@import url("../vendor/normalize.css");
-@import url("../vendor/fonts.css");
-@import url("../blocks/header/header.css");
-@import url("../blocks/logo/logo.css");
-@import url("../blocks/lead/lead.css");
-@import url("../blocks/description/description.css");
-@import url("../blocks/projects/projects.css");
-@import url("../blocks/button/button.css");
-@import url("../blocks/button/_position_projects/button_position_projects.css");
-@import url("../blocks/sponsors/sponsors.css");
-@import url("../blocks/footer/footer.css");
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/description/description.css');
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_position_projects/button_position_projects.css');
+@import url('../blocks/sponsors/sponsors.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/under-develope/under-develope.css');
 
-@import url("../media/media.css");
+@import url('../media/media.css');
 
 html {
   font-size: 18px;
 }
 
 .page {
-  font-family: "Fira Sans";
+  font-family: 'Fira Sans';
   max-width: 1440px;
   padding: 0;
   margin: 0 auto;
