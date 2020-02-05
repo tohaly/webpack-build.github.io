@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
-// eslint-disable-next-line import/prefer-default-export
-export class ScrolToSection {
+export default class ScrolToSection {
   constructor(data) {
     this.section = data.section;
     this.buttonClass = data.buttonClass;
