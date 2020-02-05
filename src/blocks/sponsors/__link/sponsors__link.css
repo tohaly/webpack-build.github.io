@@ -1,0 +1,13 @@
+.sponsors__link {
+  object-fit: cover;
+  grid-area: first;
+  justify-self: center;
+}
+
+.sponsors__link:nth-child(2) {
+  grid-area: two;
+}
+
+.sponsors__link:nth-child(3) {
+  grid-area: thre;
+}
