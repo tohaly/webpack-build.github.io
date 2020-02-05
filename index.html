@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Музей для всех</title>
-    <link rel="stylesheet" href="index.0b410f58df98008d67cf.css?8880f61362faaf0ebc86" />
-    <link
-      rel="shortcut icon"
-      href="decc6ca30b4289ebd658881c2878d210.ico"
-      type="image/x-icon"
+    <link rel="stylesheet" href="index.d1e5f9e5b4e87366bc36.css?8d2c3436e6f3ec7bff28" />
+    <link rel="shortcut icon" href="decc6ca30b4289ebd658881c2878d210.ico" type="image/x-icon" />
+
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Инклюзивный музей" />
+    <meta
+      property="og:description"
+      content="«Проект «Инклюзивный музей» нацелен на развитие лучших практик социализации и творческой реабилитации людей с инвалидностью музейными средствами, а также на формирование в музеях доступной среды."
     />
+    <meta property="og:url" content="http://in-museum.ru/" />
+    <meta property="og:site_name" content="Инклюзивный музей" />
+    <meta property="og:image" content="graphs.jpg" />
   </head>
   <body>
     <div class="page">
@@ -35,7 +42,7 @@
             <li class="menu__item">
               <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
             </li>
-            <li class="menu__item">
+            <li class="under-develope__hidden menu__item">
               <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
             </li>
             <li class="menu__item">
@@ -54,7 +61,7 @@
         <li class="menu__item menu__item_drop-down">
           <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
         </li>
-        <li class="menu__item menu__item_drop-down">
+        <li class="under-develope__hidden menu__item menu__item_drop-down">
           <a href="#" class="menu-item__link menu-item__link_projects">Спецпроекты</a>
         </li>
         <li class="menu__item menu__item_drop-down">
@@ -69,7 +76,7 @@
           <div class="lead__img"></div>
           <p class="lead__text">
             Выставки, экскурсии, концерты, театральные квесты и мастер-классы для детей и взрослых,
-            с инвалидностью и без
+            с&nbsp;инвалидностью и без
           </p>
           <p class="lead__date">
             18-20 апреля 2020
@@ -80,7 +87,15 @@
           <p class="lead__days-left">
             117 дней
           </p>
-          <button class="button">Афиша мероприятий</button>
+          <a
+            class="under-develope__hidden button button_position_lead"
+            href="https://www.culture.ru/"
+            target="_blank"
+            >Афиша мероприятий</a
+          >
+          <p class="under-develope__text">
+            Совсем скоро здесь появится афиша акции
+          </p>
         </div>
       </section>
       <section class="description" id="poster">
@@ -164,9 +179,16 @@
           </div>
         </div>
         <div class="projects__button-place">
-          <button class="button button_position_projects">
+          <p class="under-develope__text">
+            Совсем скоро здесь появится афиша акции
+          </p>
+          <a
+            class="under-develope__hidden button button_position_projects"
+            href="https://www.culture.ru/"
+            target="_blank"
+          >
             Афиша мероприятий
-          </button>
+          </a>
         </div>
       </section>
       <section class="sponsors" id="organizersr">
@@ -175,44 +197,97 @@
             <h2 class="sponsors__title sponsors__title_org">
               Организаторы
             </h2>
-            <div class="sponsors__list">
-              <img
-                class="sponsors__item"
-                src="logo__57x53.png"
-                alt="Инклюзивный музей"
-              />
-              <img
-                class="sponsors__item"
-                src="ICOM_NC_Russia.png"
-                alt="ICOM NC Russia"
-              />
-              <img
-                class="sponsors__item"
-                src="koleso_obozrenia.png"
-                alt="Инклюзивный музей"
-              />
+            <p class="description__text description__text_sponsors">
+              Акция организована проектом “Инклюзивный музей”, ИКОМ России – Российским национальным
+              комитетом Международного совета музеев (ИКОМ) и АНО «Колесо Обозрения» —
+              некоммерческой организацией по социокультурной реабилитации людей с инвалидностью .
+            </p>
+            <div class="sponsors__list sponsors__list_org">
+              <a href="http://in-museum.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="inck_museum-57x53.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="inck_museum-81x75.png"
+                    alt="Инклюзивный музей"
+                  />
+                </picture>
+              </a>
+              <a href="http://icom-russia.com" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="ICOM_NC_Russia-120x30.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="ICOM_NC_Russia-153x30.png"
+                    alt="ICOM NC Russia"
+                  />
+                </picture>
+              </a>
+              <a href="http://kolesobzora.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="koleso_obozrenia-115x43.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="koleso_obozrenia-139x53.png"
+                    alt="Колесо обозрения"
+                  />
+                </picture>
+              </a>
             </div>
           </div>
           <div class="sponsors__block">
             <h2 class="sponsors__title">
               При поддержке
             </h2>
-            <div class="sponsors__list">
-              <img
-                class="sponsors__item"
-                src="vklad_v_budushie.png"
-                alt="Инклюзивный музей"
-              />
-              <img
-                class="sponsors__item"
-                src="blagotvorit_fond_potanina.png"
-                alt="ICOM NC Russia"
-              />
-              <img
-                class="sponsors__item"
-                src="kulture_rf.png"
-                alt="Инклюзивный музей"
-              />
+            <div class="sponsors__list sponsors__list_sup">
+              <a href="https://vbudushee.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="vklad_v_budushie-80x66.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="vklad_v_budushie-100x82.png"
+                    alt="Вклад в будущее"
+                  />
+                </picture>
+              </a>
+              <a href="https://www.fondpotanin.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="fond_potanina-115x32.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="fond_potanina-162x45.png"
+                    alt="Вклад в будущее"
+                  />
+                </picture>
+              </a>
+              <a href="https://www.culture.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="kulture-115x32.png"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="kulture-151x18.png"
+                    alt="Колесо обозрения"
+                  />
+                </picture>
+              </a>
             </div>
           </div>
           <div class="sponsors__block">
@@ -227,7 +302,11 @@
           <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
           <ul class="footer__comunity">
             <li class="footer__chanel">
-              <a href="#" class="footer__chanel-link">
+              <a
+                href="https://www.youtube.com/channel/UC2-fJsQR7jvwIl_0bQwSvDg"
+                class="footer__chanel-link"
+                target="_blanck"
+              >
                 <img
                   src="youtube.svg"
                   alt="youtube"
@@ -236,12 +315,20 @@
               </a>
             </li>
             <li class="footer__chanel">
-              <a href="#" class="footer__chanel-link">
-                <img src="VK.svg" alt="VK" class="footer__chanel-img" />
+              <a href="https://vk.com/club171467623" class="footer__chanel-link" target="_blanck">
+                <img
+                  src="VK.svg"
+                  alt="VK"
+                  class="footer__chanel-img"
+                />
               </a>
             </li>
             <li class="footer__chanel">
-              <a href="#" class="footer__chanel-link">
+              <a
+                href="https://www.facebook.com/icluseumrus/"
+                class="footer__chanel-link"
+                target="_blanck"
+              >
                 <img
                   src="facebook.svg"
                   alt="facebook"
@@ -250,7 +337,11 @@
               </a>
             </li>
             <li class="footer__chanel">
-              <a href="#" class="footer__chanel-link">
+              <a
+                href="https://www.instagram.com/inmuseumrus/"
+                class="footer__chanel-link"
+                target="_blanck"
+              >
                 <img
                   src="instagram.svg"
                   alt="instagram"
@@ -266,6 +357,6 @@
         </div>
       </footer>
     </div>
-    <script src="main.aa6011be800c57ae3922.js?8880f61362faaf0ebc86"></script>
+    <script src="main.aa6011be800c57ae3922.js?8d2c3436e6f3ec7bff28"></script>
   </body>
 </html>
