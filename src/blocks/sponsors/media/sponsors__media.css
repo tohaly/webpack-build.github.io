@@ -11,7 +11,7 @@
       'supp partn';
     justify-content: center;
     grid-template-columns: repeat(2, 480px);
-    grid-gap: 140px;
+    grid-gap: 8%;
   }
   .sponsors__block:nth-child(1) {
     grid-area: org;
