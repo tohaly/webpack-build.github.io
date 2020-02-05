@@ -1,8 +1,8 @@
-.sponsors__list{
+.sponsors__list {
   display: grid;
-  grid-template-areas: 
-      "first first"
-      "two thre";
+  grid-template-areas:
+    'first first'
+    'two thre';
   justify-content: center;
   align-items: center;
   grid-gap: 38px;

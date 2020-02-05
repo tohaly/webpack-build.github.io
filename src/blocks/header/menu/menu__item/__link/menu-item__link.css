@@ -1,12 +1,13 @@
-.menu-item__link{
+.menu-item__link {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.1;
   color: #000;
   transition: color 0.4s;
   text-transform: uppercase;
+  font-family: 'Pribambas';
 }
 
-.menu-item__link:hover{
+.menu-item__link:hover {
   color: #ccc;
 }

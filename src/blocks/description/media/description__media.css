@@ -1,8 +1,8 @@
-@media screen and (min-width: 1023px){
-  .description__container{
+@media screen and (min-width: 1023px) {
+  .description__container {
     padding: 60px 16%;
   }
-  .description__text{
+  .description__text {
     font-size: 1.25rem;
     text-align: center;
   }
