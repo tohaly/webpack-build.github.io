@@ -8,9 +8,8 @@
     margin-bottom: 20px;
   }
   .lead__img {
-    background-image: url('../../../images/lead__title__646x121.jpg');
     padding-top: 9%;
-    background-size: cover;
+
     margin-bottom: 20px;
   }
   .lead__text {
@@ -29,5 +28,11 @@
   .lead__days-left {
     font-size: 2.7rem;
     margin-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .lead__img {
+    background-image: url('../../../images/lead__title__646x121.jpg');
   }
 }
