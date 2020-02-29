@@ -14,7 +14,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "Anton Voytenko",
   "license": "ISC",
   "bugs": {
     "url": ""
@@ -37,14 +37,17 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "extract-loader": "^4.0.3",
     "file-loader": "^4.3.0",
     "gh-pages": "~2.0.1",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.8.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1",
+    "raw-loader": "^4.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
@@ -54,6 +57,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.1.4",
+    "scroll-to-element": "^2.0.3",
     "serialize-javascript": "^2.1.1",
     "tiny-slider": "^2.9.2"
   }

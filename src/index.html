@@ -32,7 +32,7 @@
             <div class="humburger-line"></div>
             <div class="humburger-line"></div>
           </div>
-          <ul class="menu">
+          <ul class="menu menu__desktop">
             <li class="menu__item">
               <a href="#" class="menu-item__link menu-item__link_stocks">Акция</a>
             </li>
@@ -70,9 +70,6 @@
       </ul>
       <section class="lead" id="stocks">
         <div class="lead__container">
-          <h1 class="lead__title">
-            всероссийская инклюзивная акция
-          </h1>
           <img
             class="lead__img"
             src="<%=require('./images/bannerproz.png')%>"
@@ -288,72 +285,111 @@
               </a>
             </div>
           </div>
-          <div class="sponsors__block">
+          <div class="sponsors__block sponsors__block_partners">
+            <!-- 
+              
+              !!!!!!!!!!!!!!!!!!
+              
+              
+              Доработка здесь!
+
+
+            
+              !!!!!!!!!!!!!!!!!!
+            
+            
+            
+            -->
             <h2 class="sponsors__title sponsors__title_partners" id="partners">
               Партнеры
             </h2>
+            <div class="slider">
+              <img
+                src="<%=require('./images/partners/NKO/CLP.jpg')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/NKO/DSA.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/NKO/FRC.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/NKO/nash_solnechny_mir.jpg')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/NKO/Perspektiva_rus_standart.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/ermitaz.jpg')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/GDM.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/GMII.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/impressin-museum.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/integration.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/MAMM_logo-prozr_A.jpg')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/MIR_logo_red_RU.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/moscow-fire.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/OOMMII.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/russian-museum.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/museums/tsaritsyno-logo1.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="footer__container">
-          <a class="footer__mail" href="mailto:inmuseumrus@gmail.com">inmuseumrus@gmail.com</a>
-          <ul class="footer__comunity">
-            <li class="footer__chanel">
-              <a
-                href="https://www.youtube.com/channel/UC2-fJsQR7jvwIl_0bQwSvDg"
-                class="footer__chanel-link"
-                target="_blanck"
-              >
-                <img
-                  src="<%=require('./images/communities/youtube.svg')%>"
-                  alt="youtube"
-                  class="footer__chanel-img"
-                />
-              </a>
-            </li>
-            <li class="footer__chanel">
-              <a href="https://vk.com/club171467623" class="footer__chanel-link" target="_blanck">
-                <img
-                  src="<%=require('./images/communities/VK.svg')%>"
-                  alt="VK"
-                  class="footer__chanel-img"
-                />
-              </a>
-            </li>
-            <li class="footer__chanel">
-              <a
-                href="https://www.facebook.com/icluseumrus/"
-                class="footer__chanel-link"
-                target="_blanck"
-              >
-                <img
-                  src="<%=require('./images/communities/facebook.svg')%>"
-                  alt="facebook"
-                  class="footer__chanel-img"
-                />
-              </a>
-            </li>
-            <li class="footer__chanel">
-              <a
-                href="https://www.instagram.com/inmuseumrus/"
-                class="footer__chanel-link"
-                target="_blanck"
-              >
-                <img
-                  src="<%=require('./images/communities/instagram.svg')%>"
-                  alt="instagram"
-                  class="footer__chanel-img"
-                />
-              </a>
-            </li>
-          </ul>
-          <p class="footer__copyright">
-            <span class="footer__copyright_year">2020 </span
-            ><span class="footer__copyright_symb">&copy; </span>Инклюзивный музей
-          </p>
-        </div>
-      </footer>
+
+      <%=require('html-loader?-interpolate!./teamplates/footer.html')%>
     </div>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
