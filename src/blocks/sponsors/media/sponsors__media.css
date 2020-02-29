@@ -1,7 +1,7 @@
 @media screen and (min-width: 1230px) {
   .sponsors__list {
     grid-template-areas: 'first two thre';
-    grid-gap: 60px;
+    grid-gap: 7%;
   }
   .sponsors__container {
     padding: 75px 26px 82px;
@@ -35,5 +35,8 @@
 
   .sponsors__item:nth-child(3) {
     max-width: 150px;
+  }
+  .sponsors__block_partners {
+    max-width: 440px;
   }
 }

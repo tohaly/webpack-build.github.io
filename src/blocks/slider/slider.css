@@ -1,0 +1,9 @@
+@import url('./__item/slider__item.css');
+.slider {
+  display: flex;
+  margin-top: -16px;
+}
+
+.tns-liveregion {
+  display: none;
+}

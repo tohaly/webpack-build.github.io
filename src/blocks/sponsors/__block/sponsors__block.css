@@ -1,8 +1,14 @@
 .sponsors__block {
   margin-bottom: 50px;
   justify-content: center;
+  overflow: hidden;
 }
 
 .sponsors__block:last-of-type {
   margin-bottom: 0;
+}
+
+.sponsors__block_partners {
+  max-width: 570px;
+  margin: 0 auto;
 }
