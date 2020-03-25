@@ -1,3 +1,6 @@
-.footer__chanel-img{
-  
+.footer__chanel-img {
+  transition: transform 0.4s;
+}
+.footer__chanel-img:hover {
+  transform: scale(1.2);
 }

@@ -4,12 +4,9 @@
   }
   .lead__title {
     font-size: 2.7rem;
-    margin-bottom: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .lead__img {
-    padding-top: 9%;
-
     margin-bottom: 20px;
   }
   .lead__text {
@@ -33,6 +30,6 @@
 
 @media screen and (min-width: 420px) {
   .lead__img {
-    background-image: url('../../../images/lead__title__646x121.jpg');
+    /* max-width: 480px; */
   }
 }

@@ -1,17 +1,19 @@
 @media screen and (min-width: 1230px) {
   .sponsors__list {
     grid-template-areas: 'first two thre';
-    grid-gap: 60px;
+    grid-gap: 7%;
   }
   .sponsors__container {
     padding: 75px 26px 82px;
     display: grid;
     grid-template-areas:
       'org org'
-      'supp partn';
+      'supp partn'
+      'mass mass';
     justify-content: center;
     grid-template-columns: repeat(2, 480px);
-    grid-gap: 140px;
+    column-gap: 8%;
+    row-gap: 60px;
   }
   .sponsors__block:nth-child(1) {
     grid-area: org;
@@ -22,10 +24,13 @@
   .sponsors__block:nth-child(3) {
     grid-area: partn;
   }
+  .sponsors__block:nth-child(4) {
+    grid-area: mass;
+  }
   .sponsors__title {
     text-align: left;
   }
-  .sponsors__title_org {
+  .sponsors__title_center {
     text-align: center;
   }
 
@@ -35,5 +40,8 @@
 
   .sponsors__item:nth-child(3) {
     max-width: 150px;
+  }
+  .sponsors__block_partners {
+    max-width: 440px;
   }
 }

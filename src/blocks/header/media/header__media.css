@@ -1,26 +1,32 @@
-@media screen and (min-width: 1023px){
-  .menu{
+@media screen and (min-width: 1023px) {
+  .menu {
     display: flex;
-    }
-    .menu_drop-down{
-      display: none;
-    }
-  .header__humburger{
+  }
+  .menu_drop-down {
     display: none;
   }
-  .header__container{
+  .header__humburger {
+    display: none;
+  }
+  .header__container {
     padding: 5px 88px 3px 65px;
   }
-  .menu__item{
+  .menu__item {
     margin-right: 40px;
   }
 }
 
-@media screen and (min-width: 1150px){
-  .menu__item{
+@media screen and (min-width: 1090px) {
+  .menu__item {
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .menu__item {
     margin-right: 60px;
   }
-  .menu__item:last-of-type{
+  .menu__item:last-of-type {
     margin-right: 0;
   }
 }
