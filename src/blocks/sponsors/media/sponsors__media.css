@@ -8,10 +8,12 @@
     display: grid;
     grid-template-areas:
       'org org'
-      'supp partn';
+      'supp partn'
+      'mass mass';
     justify-content: center;
     grid-template-columns: repeat(2, 480px);
-    grid-gap: 8%;
+    column-gap: 8%;
+    row-gap: 60px;
   }
   .sponsors__block:nth-child(1) {
     grid-area: org;
@@ -22,10 +24,13 @@
   .sponsors__block:nth-child(3) {
     grid-area: partn;
   }
+  .sponsors__block:nth-child(4) {
+    grid-area: mass;
+  }
   .sponsors__title {
     text-align: left;
   }
-  .sponsors__title_org {
+  .sponsors__title_center {
     text-align: center;
   }
 

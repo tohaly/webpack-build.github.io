@@ -3,7 +3,7 @@
 @import url('./__title/projects-card__title.css');
 @import url('./__button/projects-card__button.css');
 
-.projects-card{
+.projects-card {
   max-width: 355px;
   width: 100%;
   position: relative;

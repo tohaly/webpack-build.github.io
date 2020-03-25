@@ -26,6 +26,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
+              name: 'favicons/[name].[ext]',
               esModule: false
             }
           }
@@ -68,7 +69,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]'
+              name: 'vendor/[name].[ext]'
             }
           }
         ]

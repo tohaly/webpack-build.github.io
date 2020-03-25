@@ -10,5 +10,6 @@
 
 .sponsors__block_partners {
   max-width: 570px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }

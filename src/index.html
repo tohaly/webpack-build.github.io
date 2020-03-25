@@ -40,10 +40,10 @@
               <a href="#" class="menu-item__link menu-item__link_poster">Афиша</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
+              <a href="#" class="menu-item__link menu-item__link_projects">Новости и спецпроекты</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu-item__link menu-item__link_projects">Новости и спецпроекты</a>
+              <a href="#" class="menu-item__link menu-item__link_organizers">Организаторы</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu-item__link menu-item__link_partners">Партнеры</a>
@@ -75,20 +75,20 @@
             src="<%=require('./images/bannerproz.png')%>"
             alt="Музей для всех"
           />
-          <p class="lead__date">
-            18-20 апреля 2020
+          <p class="lead__date" style="color: #A95099;">
+            Акция переносится на второе полугодие 2020 года
           </p>
-          <p class="lead__start">
+          <p class="lead__start" style="display: none;">
             До начала акции осталось:
           </p>
-          <p class="lead__days-left"></p>
+          <p style="display: none;" class="lead__days-left"></p>
           <a
             class="under-develope__hidden button button_position_lead"
             href="https://www.culture.ru/"
             target="_blank"
             >Афиша мероприятий</a
           >
-          <p class="under-develope__text">
+          <p class="under-develope__text" style="display: none;" style="display: none;">
             Совсем скоро здесь появится афиша акции
           </p>
         </div>
@@ -115,9 +115,31 @@
       </section>
       <section class="projects" id="projects">
         <h2 class="projects__title">
-          Проекты
+          Новости и спецпроекты
         </h2>
         <div class="projects__container">
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/karantin.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                НОВОСТЬ. “Перенос всероссийской акции «Музей для всех!»”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a
+                  class="button__text"
+                  href="http://in-museum.ru/novosti/o-perenose-vserossijskoj-akczii-muzej-dlya-vseh/"
+                  target="_blanck"
+                >
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="projects-card">
             <img
               class="projects-card__img"
@@ -126,19 +148,14 @@
             />
             <div class="projects-card__caption-block">
               <h3 class="projects-card__title">
-                “СПЕЦПРОЕКТ. Что нам говорили в детстве об инвалидности.”
+                СПЕЦПРОЕКТ. “Что нам говорили в детстве об инвалидности.”
               </h3>
-              <p class="projects-card__text">
-                Colta.ru опубликовал статью: «Не пялься: 15 историй о том, что нам говорили про
-                инвалидность». Это избранные истории портала PostPost.Media. Читатели портала
-                рассказали истории на тему: «Что мне говорили в детстве об инвалидности» и «Как я
-                понял, что у меня инвалидность».
-              </p>
               <div class="projects-card__button">
                 <div class="button__line"></div>
                 <a
                   class="button__text"
                   href="https://www.colta.ru/articles/specials/23696-kak-nam-govorili-pro-invalidnost-15-istoriy-iz-proekta-post-post-media"
+                  target="_blanck"
                 >
                   Узнать больше
                 </a>
@@ -153,44 +170,21 @@
             />
             <div class="projects-card__caption-block">
               <h3 class="projects-card__title">
-                “НОВОСТЬ. FORBES WOMEN об акции "Музей для всех"”
+                НОВОСТЬ. “FORBES WOMEN об акции "Музей для всех"”
               </h3>
-              <p class="projects-card__text">
-                Журнал Forbes опубликовал интервью с инициаторами проекта «Музей для всех» директора
-                по проектам ИКОМ России — Динары Халиковой и основателя социального проекта «Колесо
-                Обозрения» — Натальи Черкасовой. О том, как музейное сообщество сегодня меняется для
-                того, чтобы сделать культуру инклюзивной, с Натальей и Динарой беседует Линор
-                Горалик — писатель, поэт, главный редактор портала частных историй PostPost.Meda.
-              </p>
+
               <div class="projects-card__button">
                 <div class="button__line"></div>
                 <a
                   class="button__text"
                   href="https://www.forbes.ru/forbeslife/393855-lyudi-s-invalidnostyu-ne-vsegda-ponimayut-chto-mozhno-priyti-v-muzey-i-im-tam"
+                  target="_blanck"
                 >
                   Узнать больше
                 </a>
               </div>
             </div>
           </div>
-          <!-- <div class="projects-card">
-            <img
-              class="projects-card__img"
-              src="<%=require('./images/projects/img_3.jpg')%>"
-              alt=""
-            />
-            <div class="projects-card__caption-block">
-              <h3 class="projects-card__title">
-                “Неудобные вопросы об&nbsp;инвалидности”
-              </h3>
-              <div class="projects-card__button">
-                <div class="button__line"></div>
-                <a class="button__text" href="./projects.html">
-                  Узнать больше
-                </a>
-              </div>
-            </div>
-          </div> -->
         </div>
         <div class="projects__button-place">
           <p class="under-develope__text">
@@ -208,7 +202,7 @@
       <section class="sponsors" id="organizersr">
         <div class="sponsors__container">
           <div class="sponsors__block">
-            <h2 class="sponsors__title sponsors__title_org">
+            <h2 class="sponsors__title sponsors__title_org sponsors__title_center">
               Организаторы
             </h2>
             <p class="description__text description__text_sponsors">
@@ -305,20 +299,6 @@
             </div>
           </div>
           <div class="sponsors__block sponsors__block_partners">
-            <!-- 
-              
-              !!!!!!!!!!!!!!!!!!
-              
-              
-              Доработка здесь!
-
-
-            
-              !!!!!!!!!!!!!!!!!!
-            
-            
-            
-            -->
             <h2 class="sponsors__title sponsors__title_partners" id="partners">
               Партнеры
             </h2>
@@ -405,9 +385,54 @@
               />
             </div>
           </div>
+          <div class="sponsors__block">
+            <h2 class="sponsors__title sponsors__title_center">
+              Информационные партнеры
+            </h2>
+            <div class="sponsors__list sponsors__list_sup">
+              <a href="http://www.voginfo.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="<%=require('./images/logos/mobily/VOG95x95.png')%>"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/logos/desktop/VOG120x120.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="http://www.radiovos.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="<%=require('./images/logos/mobily/radio-VOS120x37.png')%>"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/logos/desktop/radio-VOS160x53.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://www.goodhouse.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <source
+                    srcset="<%=require('./images/logos/mobily/DO_Logo120x30.png')%>"
+                    media="(max-width: 660px)"
+                  />
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/logos/desktop/DO_Logo160x41.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
-
       <%=require('html-loader?-interpolate!./teamplates/footer.html')%>
     </div>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
