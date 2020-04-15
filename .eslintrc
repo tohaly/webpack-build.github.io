@@ -3,7 +3,9 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"],
-    "no-restricted-globals": ["error", "event", "fdescribe"]
+    "no-restricted-globals": ["error", "event", "fdescribe"],
+    "class-methods-use-this": 0,
+    "no-underscore-dangle": 0
   },
   "env": {
     "browser": true,
