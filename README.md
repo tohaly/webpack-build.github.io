@@ -34,3 +34,7 @@ __Используемые технологии:__ JS, CSS, HTML, WebPack, GIT, 
 ```
     npm run eslint
 ```
+
+## Ссылка на проект
+
+https://tohaly.github.io/museum-for-everyone.github.io/
