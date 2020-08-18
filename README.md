@@ -30,7 +30,7 @@ https://tohaly.github.io/museum-for-everyone.github.io/
 ### Локальный запуск проекта
 1. Склонировать репозиторий
     ```
-        git clone https://github.com/tohaly/diploma-web-frontend.git
+        git clone https://github.com/tohaly/museum-for-everyone.github.io.git
     ```
 2. Доставить отсутствющие модули npm
     ```
@@ -62,7 +62,7 @@ https://tohaly.github.io/museum-for-everyone.github.io/
 1. Сделать форк проекта
 2. Склонировать репозиторий
     ```
-        git clone https://github.com/tohaly/diploma-web-frontend.git
+        git clone https://github.com/tohaly/museum-for-everyone.github.io.git
     ```
 3. Доставить отсутствующие модули npm
     ```
