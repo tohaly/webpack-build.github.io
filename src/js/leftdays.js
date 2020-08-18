@@ -1,37 +1,38 @@
 export default class DateCounter {
   constructor() {
-    this.startDate = '04/18/2020';
+    this.START_ACTION = 'Акция стартовала!';
+    this.START_DATE = '09/18/2020';
     this.counter = this.counter.bind(this);
     this.daysLeftElem = document.querySelector('.lead__days-left');
     this.textAboveDate = document.querySelector('.lead__start');
-    this.days = ['день', 'дня', 'дней'];
+    this.DAYS = ['день', 'дня', 'дней'];
   }
 
   counter() {
-    return -Math.floor((new Date() - new Date(this.startDate)) / (24 * 60 * 60 * 1000));
+    return -Math.floor((new Date() - new Date(this.START_DATE)) / (24 * 60 * 60 * 1000));
   }
 
   declension(nums) {
     const newNums = nums % 10;
 
     if (newNums > 10 && newNums < 20) {
-      return this.days[2];
+      return this.DAYS[2];
     }
 
     if (newNums > 1 && newNums < 5) {
-      return this.days[1];
+      return this.DAYS[1];
     }
 
     if (newNums === 1) {
-      return this.days[0];
+      return this.DAYS[0];
     }
 
-    return this.days[2];
+    return this.DAYS[2];
   }
 
   render() {
     if (this.counter() <= 0) {
-      this.daysLeftElem.textContent = 'Акция стартовала!';
+      this.daysLeftElem.textContent = this.START_ACTION;
       this.textAboveDate.textContent = '';
       return;
     }
