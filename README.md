@@ -28,8 +28,7 @@ https://tohaly.github.io/museum-for-everyone.github.io/
 ## Использование
 
 ### Локальный запуск проекта
-1. Сначала нужно установить и локально развернуть API данного приложения [находится здесь](https://github.com/tohaly/diploma-web-backend);
-2. Склонировать репозиторий
+1. Склонировать репозиторий
     ```
         git clone https://github.com/tohaly/diploma-web-frontend.git
     ```
