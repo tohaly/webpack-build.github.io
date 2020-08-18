@@ -11,10 +11,23 @@ _COVID 19 Сейчас проект заморожен в связи с панд
 ## Ссылка на проект gh-pages
 https://tohaly.github.io/museum-for-everyone.github.io/
 
-## Используемые технологии
-JS, CSS, HTML, WebPack, GIT, Babel.
+## Что было сделанно
+- Верстка по макету `figma` с использованием `HTML`, `CSS`, `БЭМ`;
+- Логика: `JavaScript`;
+- Настроен вебпак:
+    - html: `HtmlWebpackPlugin`;
+    - обработка css: `css-loader`, `style-loader`, `postcss-loader`, `autoprefixer`, `cssnano`, `mini-css-extract-plugin`;
+    - обработка изображений: `file-loader`, `image-webpack-loader`;
+    - обработка шрифтов: `file-loader`;
+    - сборка JS: `babel`;
+- Кодстайлинг: `prettier`, `eslint`, `airbnb/base`;
+- Реализован собственный счетчик дней:);
+- Слайдер сделан при помощи утилиты [Tiny slider](https://github.com/ganlanyuan/tiny-slider);
+- Скрол рализован при помощи [scroll-to-element](https://github.com/willhoag/scroll-to-element);
 
-## Локальный запуск проекта
+## Использование
+
+### Локальный запуск проекта
 1. Сначала нужно установить и локально развернуть API данного приложения [находится здесь](https://github.com/tohaly/diploma-web-backend);
 2. Склонировать репозиторий
     ```
@@ -29,7 +42,7 @@ JS, CSS, HTML, WebPack, GIT, Babel.
         npm run dev
     ```
 
-## Публикация на GitHub Pages
+### Публикация на GitHub Pages
 
 1. Сделать форк проекта
 2. Склонировать репозиторий
@@ -74,3 +87,8 @@ JS, CSS, HTML, WebPack, GIT, Babel.
     ```
         npm run eslintFix
     ```
+
+## В планах
+
+- [ ] Наполнение новостями;
+- [ ] Добавить раздел с афишей;
