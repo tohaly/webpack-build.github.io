@@ -20,16 +20,16 @@
   }
   .lead__start {
     font-size: 2rem;
-    margin-bottom: 20px;
   }
   .lead__days-left {
     font-size: 2.7rem;
     margin-bottom: 35px;
   }
-}
-
-@media screen and (min-width: 420px) {
-  .lead__img {
-    /* max-width: 480px; */
+  .lead__date {
+    font-size: 4rem;
+    margin-bottom: 40px;
+  }
+  .lead__simple-description {
+    padding: 0 120px;
   }
 }

@@ -1,7 +1,7 @@
 export default class DateCounter {
   constructor() {
     this.START_ACTION = 'Акция стартовала!';
-    this.START_DATE = '09/18/2020';
+    this.START_DATE = '12/5/2020';
     this.counter = this.counter.bind(this);
     this.daysLeftElem = document.querySelector('.lead__days-left');
     this.textAboveDate = document.querySelector('.lead__start');

@@ -1,11 +1,10 @@
-.lead__date{
-  font-family: "Pribambas";
-  font-size: 1.3rem;
-  font-weight: normal;
+.lead__date {
+  font-family: 'Pribambas';
+  font-size: 2rem;
   font-style: normal;
+  font-weight: normal;
   line-height: 1;
   text-align: center;
-  color: #001185;
-  margin:0 0 23px;
-  letter-spacing: -0.005em;
+  color: #a95099;
+  margin: 0 0 40px;
 }
