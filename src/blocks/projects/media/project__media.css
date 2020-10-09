@@ -1,36 +1,51 @@
-@media screen and (min-width: 1023px){
-  .projects__container{
+@media screen and (min-width: 1023px) {
+  .projects__container {
     flex-direction: row;
     justify-content: center;
     padding: 85px 65px 20px;
   }
-  .projects-card__caption-block{
+  .projects-card__caption-block {
     max-width: 90%;
     padding: 24px 30px 33px 20px;
   }
-  .projects-card{
-    margin: 0 5% 0 0;
-  }
-  .projects-card:last-of-type{
-    margin: 0;
-  }
-  .projects__title{
-    font-size: 2rem;    
+
+  .projects__title {
+    font-size: 2rem;
     padding: 47px 0;
   }
-  .projects-card__title{
+  .projects-card__title {
     font-size: 1.3rem;
     margin-bottom: 17px;
   }
-  .projects__button-place{
+  .projects__button-place {
     padding: 51px 0;
   }
-  .button__line{
+  .button__line {
     width: 45px;
-    border-top: 2px solid #FBAC86;
+    border-top: 2px solid #fbac86;
     align-self: center;
   }
-  .button__text{
+  .button__text {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .projects__container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 85px 65px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .projects-card {
+    flex-basis: 45%;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .projects-card {
+    flex-basis: 32%;
   }
 }

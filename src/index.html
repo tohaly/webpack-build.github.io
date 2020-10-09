@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Музей для всех</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
+    <link href="<%=htmlWebpackPlugin.files.chunks.main.css %>" rel="stylesheet" />
     <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon" />
 
     <meta property="og:locale" content="ru_RU" />
@@ -92,7 +92,7 @@
             target="_blank"
             >Афиша мероприятий</a
           >
-          <p class="under-develope__text" style="display: none;" style="display: none;">
+          <p class="under-develope__text" style="display: none;">
             Совсем скоро здесь появится афиша акции
           </p>
         </div>
@@ -195,6 +195,28 @@
               </div>
             </div>
           </div>
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/start.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                НОВОСТЬ. “ВСЕРОССИЙСКАЯ ИНКЛЮЗИВНАЯ АКЦИЯ «МУЗЕЙ ДЛЯ ВСЕХ!»”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a
+                  class="button__text"
+                  href="https://in-museum.ru/novosti/vserossijskaya-inklyuzivnaya-akcziya-muzej-dlya-vseh-3/"
+                  target="_blanck"
+                >
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="projects__button-place">
           <p class="under-develope__text">
@@ -230,7 +252,8 @@
                   />
                   <img
                     class="sponsors__logo"
-                    src="<%=require('./images/logos/desktop/inck_museum-81x75.png')%>"
+                    style="width:81px;"
+                    src="<%=require('./images/logoTest.png')%>"
                     alt="Инклюзивный музей"
                   />
                 </picture>
@@ -396,6 +419,11 @@
               />
               <img
                 src="<%=require('./images/partners/museums/tret-gallery.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
+              <img
+                src="<%=require('./images/partners/NKO/LogoYCRussian.png')%>"
                 alt="Партнер"
                 class="slider__item"
               />
