@@ -2,8 +2,12 @@
 @import url('./__container/sponsors__container.css');
 @import url('./__item/sponsors__item.css');
 @import url('./__list/sponsors__list.css');
+@import '__list/_sup/sponsors__list_sup.css';
 @import url('./__title/sponsors__title.css');
 @import url('./__link/sponsors__link.css');
+@import url('./__logo/sponsors__logo.css');
+@import url('./__list/_media/sponsors__list_media.css');
+@import url('./__list/_org/sponsors__list_org.css');
 
 .sponsors {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);

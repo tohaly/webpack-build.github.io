@@ -1,0 +1,5 @@
+.sponsors__list_org {
+  grid-template-areas:
+    'first first'
+    'two thre';
+}

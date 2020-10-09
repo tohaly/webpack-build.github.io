@@ -1,0 +1,6 @@
+.sponsors__list_sup {
+  grid-template-areas:
+    'first two'
+    'thre fourth';
+  justify-content: center;
+}
