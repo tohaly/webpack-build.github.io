@@ -1,19 +1,19 @@
-.sponsors__item{
+.sponsors__item {
   object-position: 50% 50%;
   object-fit: cover;
 }
 
-.sponsors__item:nth-child(1){
+.sponsors__item:nth-child(1) {
   grid-area: first;
   justify-self: center;
 }
 
-.sponsors__item:nth-child(2){
-  max-width: 115px;  
+.sponsors__item:nth-child(2) {
+  max-width: 115px;
   grid-area: two;
 }
 
-.sponsors__item:nth-child(3){  
+.sponsors__item:nth-child(3) {
   grid-area: thre;
-  max-width: 115px;  
+  max-width: 115px;
 }

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
     'first first'
-    'two thre';
+    'two four';
   justify-content: center;
   align-items: center;
   grid-gap: 24px;

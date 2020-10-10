@@ -44,4 +44,15 @@
   .sponsors__block_partners {
     max-width: 440px;
   }
+
+  .sponsors__list_sup {
+    grid-template-areas:
+      'first two '
+      'thre fourth';
+    justify-content: start;
+  }
+
+  .sponsors__list_media {
+    grid-template-areas: 'first two thre';
+  }
 }

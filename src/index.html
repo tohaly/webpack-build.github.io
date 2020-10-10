@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Музей для всех</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
+    <link href="<%=htmlWebpackPlugin.files.chunks.main.css %>" rel="stylesheet" />
     <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon" />
 
     <meta property="og:locale" content="ru_RU" />
@@ -92,7 +92,7 @@
             target="_blank"
             >Афиша мероприятий</a
           >
-          <p class="under-develope__text" style="display: none;" style="display: none;">
+          <p class="under-develope__text" style="display: none;">
             Совсем скоро здесь появится афиша акции
           </p>
         </div>
@@ -128,6 +128,28 @@
           Новости и спецпроекты
         </h2>
         <div class="projects__container">
+          <div class="projects-card">
+            <img
+              class="projects-card__img"
+              src="<%=require('./images/projects/start.jpg')%>"
+              alt=""
+            />
+            <div class="projects-card__caption-block">
+              <h3 class="projects-card__title">
+                НОВОСТЬ. “ВСЕРОССИЙСКАЯ ИНКЛЮЗИВНАЯ АКЦИЯ «МУЗЕЙ ДЛЯ ВСЕХ!»”
+              </h3>
+              <div class="projects-card__button">
+                <div class="button__line"></div>
+                <a
+                  class="button__text"
+                  href="https://in-museum.ru/novosti/vserossijskaya-inklyuzivnaya-akcziya-muzej-dlya-vseh-3/"
+                  target="_blanck"
+                >
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="projects-card">
             <img
               class="projects-card__img"
@@ -224,13 +246,10 @@
             <div class="sponsors__list sponsors__list_org">
               <a href="http://in-museum.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/inck_museum-57x53.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
-                    src="<%=require('./images/logos/desktop/inck_museum-81x75.png')%>"
+                    style="width:100px;"
+                    src="<%=require('./images/logoTest.png')%>"
                     alt="Инклюзивный музей"
                   />
                 </picture>
@@ -250,10 +269,6 @@
               </a>
               <a href="http://kolesobzora.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/koleso_obozrenia-115x43.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/koleso_obozrenia-139x53.png')%>"
@@ -304,6 +319,16 @@
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/kulture-151x18.png')%>"
                     alt="Колесо обозрения"
+                  />
+                </picture>
+              </a>
+              <a href="https://www.culture.ru" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    style="width: 160px"
+                    class="sponsors__logo"
+                    src="<%=require('./images/support/pgrants.png')%>"
+                    alt="Ельцин цент"
                   />
                 </picture>
               </a>
@@ -399,13 +424,18 @@
                 alt="Партнер"
                 class="slider__item"
               />
+              <img
+                src="<%=require('./images/partners/NKO/LogoYCRussian.png')%>"
+                alt="Партнер"
+                class="slider__item"
+              />
             </div>
           </div>
           <div class="sponsors__block">
             <h2 class="sponsors__title sponsors__title_center">
               Информационные партнеры
             </h2>
-            <div class="sponsors__list sponsors__list_sup">
+            <div class="sponsors__list sponsors__list_media">
               <a href="http://www.voginfo.ru/" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
                   <source
