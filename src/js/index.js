@@ -16,13 +16,16 @@ document.querySelector('.header__humburger').addEventListener('click', () => {
 document.querySelector('.slider').addEventListener('wheel', event => {
   event.preventDefault();
   event.stopPropagation();
+
+  const result = event.deltaY > 0 ? 'next' : 'prev';
+
   // eslint-disable-next-line default-case
-  switch (event.deltaY) {
-    case 100: {
+  switch (result) {
+    case 'next': {
       slider.goTo('next');
       break;
     }
-    case -100: {
+    case 'prev': {
       slider.goTo('prev');
       break;
     }
