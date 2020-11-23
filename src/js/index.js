@@ -5,9 +5,15 @@ import { linkSelectors } from './linksSelectors';
 import DateCounter from './leftdays';
 import slider from './sliderConfig';
 import ScrollTo from './scrollTo';
+import News from './news';
+import newsList from './newsData';
 
 const leftDays = new DateCounter();
 const scroll = new ScrollTo();
+const template = document.querySelector('#news');
+const container = document.querySelector('.projects__container');
+
+const news = new News(template, container);
 
 document.querySelector('.header__humburger').addEventListener('click', () => {
   document.querySelector('.menu_drop-down').classList.toggle('menu_drop-down_is-opened');
@@ -37,3 +43,5 @@ leftDays.render();
 Object.values(linkSelectors).forEach(element => {
   scroll.render(element.button, element.section);
 });
+
+news.render(newsList);

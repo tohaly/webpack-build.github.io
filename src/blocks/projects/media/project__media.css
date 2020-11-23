@@ -1,7 +1,5 @@
 @media screen and (min-width: 1023px) {
   .projects__container {
-    flex-direction: row;
-    justify-content: center;
     padding: 85px 65px 20px;
   }
   .projects-card__caption-block {
@@ -32,11 +30,7 @@
 
 @media screen and (min-width: 600px) {
   .projects__container {
-    flex-direction: row;
-    justify-content: center;
     padding: 85px 65px 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   .projects-card {
     flex-basis: 45%;
