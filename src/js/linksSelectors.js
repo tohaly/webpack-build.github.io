@@ -8,7 +8,7 @@ export const linkSelectors = {
     button: '.menu-item__link_stocks'
   },
   poster: {
-    section: '.description',
+    section: '.projects__button-place',
     button: '.menu-item__link_poster'
   },
   projects: {
