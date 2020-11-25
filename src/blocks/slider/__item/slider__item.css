@@ -1,5 +1,6 @@
 .slider__item {
-  max-width: 100px;
+  max-width: 120px;
   width: 100%;
   align-self: center;
+  object-fit: contain;
 }

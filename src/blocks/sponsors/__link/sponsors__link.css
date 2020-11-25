@@ -11,6 +11,15 @@
 .sponsors__link:nth-child(3) {
   grid-area: thre;
 }
+
 .sponsors__link:nth-child(4) {
   grid-area: fourth;
+}
+
+.sponsors__link:nth-child(5) {
+  grid-area: five;
+}
+
+.sponsors__link:nth-child(6) {
+  grid-area: six;
 }
