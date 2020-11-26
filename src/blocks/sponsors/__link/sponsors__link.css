@@ -1,5 +1,4 @@
 .sponsors__link {
-  object-fit: cover;
   grid-area: first;
   justify-self: center;
 }

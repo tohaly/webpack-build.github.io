@@ -1,3 +1,5 @@
+import ten from '../images/news/10.jpg';
+import nine from '../images/news/9.jpg';
 import eight from '../images/news/8.jpg';
 import seven from '../images/news/7.jpg';
 import six from '../images/news/six.jpg';
@@ -8,6 +10,17 @@ import two from '../images/news/two.jpg';
 import one from '../images/news/one.jpg';
 
 export default [
+  {
+    title: 'НОВОСТЬ. Межмузейная кураторская программа "Семейная история"',
+    img: nine,
+    link:
+      'https://in-museum.ru/novosti/mezhmuzejnaya-inklyuzivnaya-onlajn-programma-semejnaya-istoriya-v-ramkah-akczii-muzej-dlya-vseh-2020-3-12-dekabrya-2020/'
+  },
+  {
+    title: 'СПЕЦПРОЕКТ. "12 неловких вопросов про инвалидность" ',
+    img: ten,
+    link: 'https://snob.ru/entry/200813/'
+  },
   {
     title:
       'НОВОСТЬ на портале PRO.Культура.РФ. “Новый уровень общения: сотрудники музеев осваивают русский жестовый язык”',

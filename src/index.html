@@ -18,6 +18,37 @@
     <meta property="og:url" content="http://in-museum.ru/" />
     <meta property="og:site_name" content="Инклюзивный музей" />
     <meta property="og:image" content="<%=require('./images/graphs.jpg')%>" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function() {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+      ym(67627558, 'init', {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/67627558"
+          style="position:absolute; left:-9999px;"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
   <body>
     <div class="page">
@@ -162,9 +193,9 @@
             </p>
             <div class="sponsors__list sponsors__list_org">
               <a href="http://in-museum.ru" class="sponsors__link" target="_blanck">
-                <picture class="sponsors__item sponsors__item_museum">
+                <picture class="sponsors__item">
                   <img
-                    class="sponsors__logo"
+                    class="sponsors__logo sponsors__logo_museum "
                     src="<%=require('./images/orgs/museum.png')%>"
                     alt="Инклюзивный музей"
                   />
@@ -174,7 +205,7 @@
                 <picture class="sponsors__item">
                   <img
                     class="sponsors__logo"
-                    src="<%=require('./images/logos/desktop/ICOM_NC_Russia-153x30.png')%>"
+                    src="<%=require('./images/orgs/ICOM.png')%>"
                     alt="ICOM NC Russia"
                   />
                 </picture>
@@ -197,10 +228,6 @@
             <div class="sponsors__list sponsors__list_sup">
               <a href="https://vbudushee.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/vklad_v_budushie-80x66.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/vklad_v_budushie-100x82.png')%>"
@@ -210,10 +237,6 @@
               </a>
               <a href="https://www.fondpotanin.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/fond_potanina-115x32.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/fond_potanina-162x45.png')%>"
@@ -223,10 +246,6 @@
               </a>
               <a href="https://www.culture.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/kulture-115x32.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/kulture-151x18.png')%>"

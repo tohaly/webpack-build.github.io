@@ -1,8 +1,4 @@
 .sponsors__item {
-  max-width: 200px;
-  display: flex;
-  object-position: 50% 50%;
-  object-fit: cover;
 }
 
 .sponsors__item:nth-child(1) {
@@ -18,8 +14,4 @@
 .sponsors__item:nth-child(3) {
   grid-area: thre;
   max-width: 115px;
-}
-
-.sponsors__item_museum {
-  max-width: 100px;
 }
