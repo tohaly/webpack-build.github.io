@@ -53,6 +53,6 @@
   }
 
   .sponsors__list_media {
-    grid-template-areas: 'first two thre fourth five six';
+    grid-template-areas: 'first two thre fourth five six seven';
   }
 }

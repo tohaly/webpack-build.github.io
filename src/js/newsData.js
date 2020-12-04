@@ -1,3 +1,4 @@
+import eleven from '../images/news/11.jpg';
 import ten from '../images/news/10.jpg';
 import nine from '../images/news/9.jpg';
 import eight from '../images/news/8.jpg';
@@ -10,6 +11,12 @@ import two from '../images/news/two.jpg';
 import one from '../images/news/one.jpg';
 
 export default [
+  {
+    title: 'НОВОСТЬ. Межмузейная кураторская программа "Портрет неизвестной" ',
+    img: eleven,
+    link:
+      'https://in-museum.ru/novosti/mezhmuzejnaya-inklyuzivnaya-onlajn-programma-portret-neizvestnoj-v-ramkah-akczii-muzej-dlya-vseh-2020/'
+  },
   {
     title: 'НОВОСТЬ. Межмузейная кураторская программа "Семейная история"',
     img: nine,

@@ -1,7 +1,8 @@
 .sponsors__list_media {
   grid-template-areas:
     'first two'
-    'thre fourth'
-    'five six';
+    'thre thre'
+    'fourth five'
+    'six seven';
   justify-content: center;
 }
