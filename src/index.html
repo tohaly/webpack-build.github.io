@@ -18,12 +18,43 @@
     <meta property="og:url" content="http://in-museum.ru/" />
     <meta property="og:site_name" content="Инклюзивный музей" />
     <meta property="og:image" content="<%=require('./images/graphs.jpg')%>" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function() {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+      ym(67627558, 'init', {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/67627558"
+          style="position:absolute; left:-9999px;"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
   <body>
     <div class="page">
       <header class="header">
         <div class="header__container">
-          <a href="./index.html" class="main-link">
+          <a href="#" class="main-link">
             <div class="logo"></div>
           </a>
           <div class="header__humburger">
@@ -164,22 +195,17 @@
               <a href="http://in-museum.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
                   <img
-                    class="sponsors__logo"
-                    style="width:100px;"
-                    src="<%=require('./images/logoTest.png')%>"
+                    class="sponsors__logo sponsors__logo_museum "
+                    src="<%=require('./images/orgs/museum.png')%>"
                     alt="Инклюзивный музей"
                   />
                 </picture>
               </a>
               <a href="http://icom-russia.com" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/ICOM_NC_Russia-120x30.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
-                    src="<%=require('./images/logos/desktop/ICOM_NC_Russia-153x30.png')%>"
+                    src="<%=require('./images/orgs/ICOM.png')%>"
                     alt="ICOM NC Russia"
                   />
                 </picture>
@@ -188,7 +214,7 @@
                 <picture class="sponsors__item">
                   <img
                     class="sponsors__logo"
-                    src="<%=require('./images/logos/desktop/koleso_obozrenia-139x53.png')%>"
+                    src="<%=require('./images/orgs/koleso.png')%>"
                     alt="Колесо обозрения"
                   />
                 </picture>
@@ -202,10 +228,6 @@
             <div class="sponsors__list sponsors__list_sup">
               <a href="https://vbudushee.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/vklad_v_budushie-80x66.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/vklad_v_budushie-100x82.png')%>"
@@ -215,10 +237,6 @@
               </a>
               <a href="https://www.fondpotanin.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/fond_potanina-115x32.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/fond_potanina-162x45.png')%>"
@@ -228,10 +246,6 @@
               </a>
               <a href="https://www.culture.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
-                  <source
-                    srcset="<%=require('./images/logos/mobile/kulture-115x32.png')%>"
-                    media="(max-width: 660px)"
-                  />
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/kulture-151x18.png')%>"
@@ -242,7 +256,6 @@
               <a href="https://www.culture.ru" class="sponsors__link" target="_blanck">
                 <picture class="sponsors__item">
                   <img
-                    style="width: 160px"
                     class="sponsors__logo"
                     src="<%=require('./images/support/pgrants.png')%>"
                     alt="Ельцин цент"
@@ -388,6 +401,52 @@
                   <img
                     class="sponsors__logo"
                     src="<%=require('./images/logos/desktop/DO_Logo160x41.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://ok.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/partners/ok.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://radiovera.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/partners/vera.jpg')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://transport.mos.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/partners/mos-trans.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://www.rosbalt.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    class="sponsors__logo"
+                    src="<%=require('./images/partners/rosbatl.png')%>"
+                    alt="Информационный партнер"
+                  />
+                </picture>
+              </a>
+              <a href="https://vtg-tv.ru/" class="sponsors__link" target="_blanck">
+                <picture class="sponsors__item">
+                  <img
+                    style="width: 110px"
+                    class="sponsors__logo"
+                    src="<%=require('./images/partners/vtgtv.jpg')%>"
                     alt="Информационный партнер"
                   />
                 </picture>

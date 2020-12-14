@@ -1,7 +1,7 @@
 @media screen and (min-width: 1230px) {
   .sponsors__list {
     grid-template-areas: 'first two thre';
-    grid-gap: 7%;
+    grid-gap: 4%;
   }
   .sponsors__container {
     padding: 75px 26px 82px;
@@ -53,6 +53,8 @@
   }
 
   .sponsors__list_media {
-    grid-template-areas: 'first two thre';
+    grid-template-areas:
+      'first two thre fourth'
+      'five six seven eat';
   }
 }

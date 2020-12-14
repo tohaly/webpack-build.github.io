@@ -6,7 +6,7 @@ import DateCounter from './leftdays';
 import slider from './sliderConfig';
 import ScrollTo from './scrollTo';
 import News from './news';
-import newsList from './newsData';
+import { loadNews } from './firebase';
 
 const leftDays = new DateCounter();
 const scroll = new ScrollTo();
@@ -44,4 +44,4 @@ Object.values(linkSelectors).forEach(element => {
   scroll.render(element.button, element.section);
 });
 
-news.render(newsList);
+loadNews().then(news.render);

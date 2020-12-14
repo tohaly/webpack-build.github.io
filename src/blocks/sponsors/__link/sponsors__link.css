@@ -1,5 +1,4 @@
 .sponsors__link {
-  object-fit: cover;
   grid-area: first;
   justify-self: center;
 }
@@ -11,6 +10,23 @@
 .sponsors__link:nth-child(3) {
   grid-area: thre;
 }
+
 .sponsors__link:nth-child(4) {
   grid-area: fourth;
+}
+
+.sponsors__link:nth-child(5) {
+  grid-area: five;
+}
+
+.sponsors__link:nth-child(6) {
+  grid-area: six;
+}
+
+.sponsors__link:nth-child(7) {
+  grid-area: seven;
+}
+
+.sponsors__link:nth-child(8) {
+  grid-area: eat;
 }

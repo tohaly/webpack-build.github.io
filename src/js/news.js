@@ -10,6 +10,8 @@ export default class News {
   constructor(template, container) {
     this._template = template;
     this._container = container;
+
+    this.render = this.render.bind(this);
   }
 
   template() {
@@ -33,7 +35,6 @@ export default class News {
     const { CARD_IMG, CARD_TITLE, CARD_BUTTON } = selectors;
     const element = document.createElement('div');
     element.insertAdjacentHTML('beforeend', this.template().trim());
-    console.log(element);
     element.querySelector(CARD_IMG).setAttribute('src', img);
     element.querySelector(CARD_TITLE).textContent = title;
     element.querySelector(CARD_BUTTON).setAttribute('href', link);

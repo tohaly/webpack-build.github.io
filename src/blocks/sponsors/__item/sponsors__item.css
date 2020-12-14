@@ -1,6 +1,4 @@
 .sponsors__item {
-  object-position: 50% 50%;
-  object-fit: cover;
 }
 
 .sponsors__item:nth-child(1) {

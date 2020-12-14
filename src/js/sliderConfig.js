@@ -12,9 +12,9 @@ const slider = tns({
   swipeAngle: '45',
   gutter: 16,
   speed: 300,
-  edgePadding: 50,
   rewind: false,
-  preventActionWhenRunning: true
+  preventActionWhenRunning: true,
+  autoWidth: true
 });
 
 export default slider;
