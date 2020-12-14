@@ -26,3 +26,7 @@
 .sponsors__link:nth-child(7) {
   grid-area: seven;
 }
+
+.sponsors__link:nth-child(8) {
+  grid-area: eat;
+}
